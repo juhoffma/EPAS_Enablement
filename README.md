@@ -1,6 +1,6 @@
-= EPAS Enablement Training =
+# EPAS Enablement Training
 
-== About
+## About
 EPAS Enablement Training focuses on the Enablement of Field Consultants to be able to deliver OpenShift Enterprise Engagements. Its focus is to technically deep dive into an OpenShift Enterprise.
 
 The following list represents the key components we want to cover in this 5-day training.
@@ -17,9 +17,9 @@ The following list represents the key components we want to cover in this 5-day 
 - Integration of OpenShift Enterprise to streamline multi stage development
 - Extending OpenShift Enterprise
 
-== Training Outline
+## Training Outline
 
-=== Introduction into OpenShift
+### Introduction into OpenShift
 
 * Storyline
   * Customer has an ApplicationSet with Services they provide
