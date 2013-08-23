@@ -47,6 +47,7 @@ The following list represents the key components we want to cover in this 5-day 
      * Create a scaling Application 
         * demo application needed (load generator)
         * matt hicks has created one
+          * https://github.com/matthicksj/scaling-demo
      * Look at the runtime statistics
      * Investigate Infrastructure
      * Look at the scaling algorithms
