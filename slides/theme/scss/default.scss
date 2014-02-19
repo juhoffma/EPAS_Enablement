@@ -165,7 +165,7 @@ slides > slide {
   }
 
   &:not(.nobackground) {
-    background: white url(../../images/shadowman_128.png.png) ($brand-small-icon-size * 2) 98% no-repeat;
+    background: white url(../../images/shadowman_128.png) ($brand-small-icon-size * 2) 98% no-repeat;
     @include background-size($brand-small-icon-size $brand-small-icon-size);
 
     &:before {

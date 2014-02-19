@@ -1,0 +1,181 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/redhat_logo.png"></span>
+    </article>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/shadowman_128.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/shadowman_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h1>One week of OpenShift</h1>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Agenda</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Day 1
+          <ul class="build">
+            <li>Custom Cartridge Creation</li>
+            <li>Cartridge Lifecycle Discussion</li>
+            <li>Integration of External Systems</li>
+            <li>Integration of Jenkins</li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Agenda (cont.)</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Day 3
+          <ul class="build">
+              <li>Monitoring with Nagios</li>
+              <li>Monitoring with Zabbix</li>
+              <li>Integration of External Monitoring Systems</li>
+              <li>INSERT CUSTOMER ARCHITECTURES ALREADY DELIVERED</li>
+          </ul>
+        </li>
+        <li>Day 4
+          <ul class="build">
+            <li>Infrastructure and Architecture
+              <ul>
+                <li>Loopback Addresses</li>
+                <li>Multi Tenancy</li>
+                <li>Shared Storage</li>
+                <li>SSL and Encryption
+              </ul>
+            </li>
+            <li>Maven and Jenkins Integration</li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Agenda (cont.)</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Day 5
+          <ul class="build">
+              <li>Jenkins Build and Deployment Pipeline</li>
+              <li>Divide a Broker into components (Scalable Architecture)
+                <ul>
+                  <li>DNS</li>
+                  <li>MongoDB</li>
+                  <li>ActiveMQ</li>
+                </ul>
+              </li>
+              <li>Backup</li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>OpenShift Enterprise Components</h2>
+    </hgroup>
+    <article class="flexbox vcenter">
+      <img src="images/day1/ose_components.png" alt="OpenShift Enterprise Components" title="OpenShift Enterprise Components">
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>OpenShift Enterprise Communication</h2>
+    </hgroup>
+    <article class="flexbox vcenter">
+      <img src="images/day1/ose_communications_mechanisms.png" alt="OpenShift Enterprise Communication" title="OpenShift Enterprise Communication">
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>How does OpenShift Enterprise Manage State?</h2>
+    </hgroup>
+    <article class="flexbox vcenter">
+      <img src="images/day1/ose_state_mgmt.png" alt="OpenShift Enterprise State Management" title="OpenShift Enterprise State Management">
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>OSE Architecture</h2>
+    </hgroup>
+      <article class="flexbox vcenter">
+        <img src="images/day1/OpenShiftArchitecture.png" alt="OpenShift Architecture" title="OpenShift Architecture" />
+      </article>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
